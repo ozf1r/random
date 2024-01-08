@@ -17,9 +17,9 @@ void setup() {
 
 void loop() {
 
-  // for the die roll
-  int d = 50; // time 0 and 1 are shown
-  int n = 100; // number of times 0 and 1 are shown
+  // for the die roll sequence
+  int d = 50; // time a random number is shown
+  int n = 100; // number of times a random number is shown
 
   // 16000 is max in Arduino
   int q = 16000; // time each random number is shown
